@@ -25,3 +25,6 @@ youtube.response = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.c
 
 [MITM]
 hostname = %APPEND%, api.revenuecat.com, firebaseremoteconfig.googleapis.com
+
+[MITM]
+hostname = %APPEND% spclient.wg.spotify.com, api.revenuecat.com, -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com, api-mobile.soundcloud.com
